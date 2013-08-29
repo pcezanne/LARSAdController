@@ -23,9 +23,14 @@
 		46C1EAFC154C706300EBFEF1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C1EAFB154C706300EBFEF1 /* MessageUI.framework */; };
 		46F8742016915DDF001A2DF8 /* TOLAdAdapterGoogleAds.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F8741F16915DDF001A2DF8 /* TOLAdAdapterGoogleAds.m */; };
 		AAAFED1E17CFEC5800D7FCCC /* LARSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAFED1B17CFEC5800D7FCCC /* LARSAppDelegate.m */; };
-		AAAFED1F17CFEC5800D7FCCC /* LARSExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAFED1D17CFEC5800D7FCCC /* LARSExampleViewController.m */; };
 		AAAFED2317CFEC7E00D7FCCC /* BannerViewAdDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAAFED2017CFEC7E00D7FCCC /* BannerViewAdDemo-Info.plist */; };
 		AAAFED2417CFEC7E00D7FCCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAFED2217CFEC7E00D7FCCC /* main.m */; };
+		AAAFED2817CFEE9000D7FCCC /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAFED2717CFEE9000D7FCCC /* BannerViewController.m */; };
+		AAECFE4417CFF291007B76D6 /* LARSBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAECFE4217CFF291007B76D6 /* LARSBannerViewController.m */; };
+		AAECFE4517CFF291007B76D6 /* LARSBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAECFE4317CFF291007B76D6 /* LARSBannerViewController.xib */; };
+		AAECFE4717CFF438007B76D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAECFE4617CFF438007B76D6 /* Default@2x.png */; };
+		AAECFE4917CFF44A007B76D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAECFE4817CFF44A007B76D6 /* Default-568h@2x.png */; };
+		AAECFE4B17CFF47D007B76D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAECFE4A17CFF47D007B76D6 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,11 +66,17 @@
 		46F8741F16915DDF001A2DF8 /* TOLAdAdapterGoogleAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOLAdAdapterGoogleAds.m; sourceTree = "<group>"; };
 		AAAFED1A17CFEC5800D7FCCC /* LARSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LARSAppDelegate.h; path = BannerViewAdDemo/LARSAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		AAAFED1B17CFEC5800D7FCCC /* LARSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LARSAppDelegate.m; path = BannerViewAdDemo/LARSAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		AAAFED1C17CFEC5800D7FCCC /* LARSExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LARSExampleViewController.h; path = BannerViewAdDemo/LARSExampleViewController.h; sourceTree = SOURCE_ROOT; };
-		AAAFED1D17CFEC5800D7FCCC /* LARSExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LARSExampleViewController.m; path = BannerViewAdDemo/LARSExampleViewController.m; sourceTree = SOURCE_ROOT; };
 		AAAFED2017CFEC7E00D7FCCC /* BannerViewAdDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BannerViewAdDemo-Info.plist"; path = "BannerViewAdDemo/BannerViewAdDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AAAFED2117CFEC7E00D7FCCC /* BannerViewAdDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BannerViewAdDemo-Prefix.pch"; path = "BannerViewAdDemo/BannerViewAdDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		AAAFED2217CFEC7E00D7FCCC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BannerViewAdDemo/main.m; sourceTree = SOURCE_ROOT; };
+		AAAFED2617CFEE9000D7FCCC /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BannerViewController.h; path = BannerViewAdDemo/BannerViewController.h; sourceTree = SOURCE_ROOT; };
+		AAAFED2717CFEE9000D7FCCC /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BannerViewController.m; path = BannerViewAdDemo/BannerViewController.m; sourceTree = SOURCE_ROOT; };
+		AAECFE4117CFF291007B76D6 /* LARSBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LARSBannerViewController.h; path = BannerViewAdDemo/LARSBannerViewController.h; sourceTree = SOURCE_ROOT; };
+		AAECFE4217CFF291007B76D6 /* LARSBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LARSBannerViewController.m; path = BannerViewAdDemo/LARSBannerViewController.m; sourceTree = SOURCE_ROOT; };
+		AAECFE4317CFF291007B76D6 /* LARSBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LARSBannerViewController.xib; path = BannerViewAdDemo/LARSBannerViewController.xib; sourceTree = SOURCE_ROOT; };
+		AAECFE4617CFF438007B76D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AAECFE4817CFF44A007B76D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAECFE4A17CFF47D007B76D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +146,9 @@
 		46B9177F14425C5F007EF823 = {
 			isa = PBXGroup;
 			children = (
+				AAECFE4A17CFF47D007B76D6 /* Default.png */,
+				AAECFE4817CFF44A007B76D6 /* Default-568h@2x.png */,
+				AAECFE4617CFF438007B76D6 /* Default@2x.png */,
 				4642C0A6167CFB040039EE16 /* Default-568h@2x.png */,
 				465212CF16ACF9D5003635AB /* AdMob */,
 				4641EBAB167EA96B00A4E590 /* LARSAdController */,
@@ -173,9 +187,12 @@
 			children = (
 				AAAFED1A17CFEC5800D7FCCC /* LARSAppDelegate.h */,
 				AAAFED1B17CFEC5800D7FCCC /* LARSAppDelegate.m */,
-				AAAFED1C17CFEC5800D7FCCC /* LARSExampleViewController.h */,
-				AAAFED1D17CFEC5800D7FCCC /* LARSExampleViewController.m */,
+				AAAFED2617CFEE9000D7FCCC /* BannerViewController.h */,
+				AAAFED2717CFEE9000D7FCCC /* BannerViewController.m */,
 				46B9179514425C60007EF823 /* Supporting Files */,
+				AAECFE4117CFF291007B76D6 /* LARSBannerViewController.h */,
+				AAECFE4217CFF291007B76D6 /* LARSBannerViewController.m */,
+				AAECFE4317CFF291007B76D6 /* LARSBannerViewController.xib */,
 			);
 			name = BannerViewAdDemo;
 			path = adcontrollerdemo;
@@ -246,6 +263,10 @@
 			files = (
 				4642C0A7167CFB040039EE16 /* Default-568h@2x.png in Resources */,
 				AAAFED2317CFEC7E00D7FCCC /* BannerViewAdDemo-Info.plist in Resources */,
+				AAECFE4517CFF291007B76D6 /* LARSBannerViewController.xib in Resources */,
+				AAECFE4717CFF438007B76D6 /* Default@2x.png in Resources */,
+				AAECFE4917CFF44A007B76D6 /* Default-568h@2x.png in Resources */,
+				AAECFE4B17CFF47D007B76D6 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +298,9 @@
 				4641EBB8167EA96B00A4E590 /* TOLAdViewController.m in Sources */,
 				46F8742016915DDF001A2DF8 /* TOLAdAdapterGoogleAds.m in Sources */,
 				AAAFED1E17CFEC5800D7FCCC /* LARSAppDelegate.m in Sources */,
-				AAAFED1F17CFEC5800D7FCCC /* LARSExampleViewController.m in Sources */,
 				AAAFED2417CFEC7E00D7FCCC /* main.m in Sources */,
+				AAAFED2817CFEE9000D7FCCC /* BannerViewController.m in Sources */,
+				AAECFE4417CFF291007B76D6 /* LARSBannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
