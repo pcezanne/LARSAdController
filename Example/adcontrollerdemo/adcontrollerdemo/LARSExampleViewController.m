@@ -37,6 +37,7 @@
     [self.bottomTestButton setTitle:@"this button should move up and down when an ad is shown or hidden" forState:UIControlStateNormal];
     self.bottomTestButton.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     self.bottomTestButton.titleLabel.textAlignment = NSTextAlignmentCenter;
+    self.bottomTestButton.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
     
     [view addSubview:self.bottomTestButton];
     
