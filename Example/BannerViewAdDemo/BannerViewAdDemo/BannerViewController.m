@@ -133,8 +133,12 @@ Copyright (C) 2013 Apple Inc. All Rights Reserved.
             
             // right now we need to know if the Adapter was an AdMob ad
             // so we can do something about the shadow
+        } else {
+            isLoaded = YES;
         }
     }
+    [self.view setNeedsLayout];
+    [self.view layoutIfNeeded];
 }
 
 // you would call this method if, for example, you implemented in-app purchases
